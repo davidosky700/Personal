@@ -1,0 +1,199 @@
+main {
+	margin-left: 0.1%;
+}
+
+h3 {
+	margin-left: 2%;
+}
+
+.white {
+	color: #ffffff;
+}
+
+/*FIRST-SECTION FIRST-SECTION FIRST-SECTION FIRST-SECTION */
+
+.white {
+	color: #ffffff;
+}
+
+.upper-part {
+	padding: 9% 0 0 4%;
+	background: rgba(0, 0, 0, 0.5);
+	width: 53%;
+}
+
+.lower-part {
+	padding: 5.5% 0 8% 18%;
+}
+
+.first-btn {
+   margin: 0 9% 0 0;
+
+}
+
+/*SECOND-SECTION SECOND-SECTION SECOND-SECTION SECOND-SECTION*/
+
+.second-section {
+	margin: 3% 0 0 0;
+}
+
+.icon-resize {
+	width: 20%;
+	margin: auto;
+	padding-top: 4%;
+}
+
+.shadow {
+	box-shadow: 10px 5px 5px;
+}
+
+/*THIRD-SECTION THIRD-SECTION THIRD-SECTION THIRD-SECTION*/
+
+.third-section {
+	margin: 3% 0 0 1%;
+}
+
+.lang-resize {
+	width: 25%;
+	opacity: 0.5;
+}
+
+/*MY-PROJECT MY-PROJECT MY-PROJECT MY-PROJECT MY-PROJECT MY-PROJECT*/
+.my-project {
+   margin-top: 1%;
+   padding: 3% 0 3% 0;
+   background-color: #000000;
+}
+
+.justify-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4%;
+}
+
+.project-card-one {
+  margin: 0 7% 0 0;
+  background-color: #072541;
+  width: 30rem;
+  padding: 0 0 0 0;
+}
+
+.project-card-two {
+  margin: 0 0 0 0;
+  background-color: #072541;
+  width: 30rem;
+  padding: 0 0 0 0;
+}
+
+.expand-image {
+	transition: transform 0.3s ease-in-out;
+}
+
+.expand-image:hover,
+.expand-image:active {
+	transform: scale(1.1);
+}
+
+/*ABOUT-ME ABOUT-ME ABOUT-ME ABOUT-ME ABOUT-ME ABOUT-ME ABOUT-ME ABOUT-ME*/
+.about-me {
+	margin: 4% 0 0 2%;
+}
+
+.pic-about-me {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-me img {
+	filter: grayscale(100%);
+	margin-bottom: 5%;
+	border: 2px;
+	border-radius: 20px;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+
+/*FIRST-SECTION FIRST-SECTION <<MEDIA>> FIRST-SECTION FIRST-SECTION */
+
+.first-section h1 {
+    font-size:19px;
+}
+
+.first-section h5 {
+    font-size:12px;
+}
+
+.lower-part {
+	padding: 5.5% 0 8% 6%;
+}
+
+.first-btn {
+   margin: 0 1% 0 0;
+}
+
+.lower-part button {
+   font-size: 10px;
+}
+
+/*SECOND-SECTION SECOND-SECTION <<MEDIA>> SECOND-SECTION SECOND-SECTION*/
+
+.second-section h5 {
+  font-size: 15px;
+}
+
+.second-section p {
+  font-size: 14px;
+}
+
+.icon-resize {
+	width: 15%;	
+}
+
+.skills {
+    width: 30rem;
+    padding-left: 7%;
+}
+
+/*THIRD-SECTION THIRD-SECTION <<MEDIA>> THIRD-SECTION THIRD-SECTION */
+
+.lang-resize {
+	width: 20%;
+}
+
+.shorten {
+	width: 50%;
+}
+
+.shift-down {
+	padding: 4% 0 0 14%;
+}
+
+
+/*MY-PROJECT MY-PROJECT MY-PROJECT <<MEDIA>> MY-PROJECT MY-PROJECT MY-PROJECT*/
+.project-card-one {
+  margin: 0 0 4% 0;
+  width: 20rem;
+  padding: 0 0 0 0;
+}
+
+.project-card-two {
+  padding: 0 0 0 0;
+  width: 20rem;
+}
+
+
+
+
+
+/*ABOUT-ME ABOUT-ME ABOUT-ME <<MEDIA>> ABOUT-ME ABOUT-ME ABOUT-ME ABOUT-ME*/
+.about-me img {
+	width: 50%;
+}
+
+}
